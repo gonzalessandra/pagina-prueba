@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+<head>
+<title>Practica 3</title>
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+<nav class="menu">
+<img src="logo.png" width="200">
+<a href="#">Inicio</a>
+<a href="#">Productos</a>
+<a href="#">Contacto</a>
+</nav>
+</header>
+
+<section class="referencia">
+<div>
+<h1>Cursos gratis de programacion</h1>
+<p>Aquí aprenderas los diferentes lenguajes de programación</p>
+<a href="#">Saber más</a>
+</div>
+</section>
+
+<main class="main">
+<h1>Bienvenido al mundo tic</h1>
+<p>En este espacio vamoa a explorar el mundo de la programación</p>
+<img src="centro.jpg">
+</main>
+
+
+<div id="tarjetas" class="tarjetas">
+<section class="tarjeta">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQcLJasARsC-veZeJSECZojTZ19ONMK68WdmAFeoA_Ow&s=10">
+<h3>Curso de programacion de software</h3>
+<p>Aqui aprenderas a programar en HTML y CSS</p>
+<span class="precio">$100.000</span>
+</section>
+
+<section class="tarjeta">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQcLJasARsC-veZeJSECZojTZ19ONMK68WdmAFeoA_Ow&s=10">
+<h3>Curso de programacion de software</h3>
+<p>Aqui aprenderas a programar en HTML y CSS</p>
+<span class="precio">$100.000</span>
+</section>
+
+<section class="tarjeta">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQcLJasARsC-veZeJSECZojTZ19ONMK68WdmAFeoA_Ow&s=10">
+<h3>Curso de programacion de software</h3>
+<p>Aqui aprenderas a programar en HTML y CSS</p>
+<span class="precio">$100.000</span>
+</section>
+
+</div>
+
+
+<footer>
+<p>&copy; 2026 Senatic. Todos los derechos reservados.</p>
+<a href="https://facebook.com"><img src="fb.png"></a>
+<a href="https://instagram.com"><img src="ig.png"></a>
+<a href="https://whatsapp.com"><img src="ws.png"></a>
+</footer>
+
+<style>
+.menu
+{
+position: fixed; 
+top: 0; 
+left: 0;   
+ width: 100%; 
+background-color:#C42A6C;
+display:flex;
+justify-content:flex-start;
+align-items:center;
+gap:20px;
+padding:5px; 
+}
+.menu a
+{
+color:white;
+text-decoration:none;
+font-size:30px;
+}
+footer
+{
+background-color:#C42A6C;
+text-align:center;
+color:white;
+}
+footer img
+{
+width:40px;
+height:40px;
+}
+
+.main
+{
+ max-width: 1000px;
+
+margin: 100px auto;
+padding-top: 50px;
+background-color: #ffffff;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main img
+{
+ max-width: 500px;
+
+}
+.referencia
+{
+margin-top:80px;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: black;
+padding: 20px;
+background-image: url("senatic2.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.referencia h1
+{
+font-size:50px;
+color:white;
+}
+.referencia p
+{
+font-size:20px;
+color:white;
+}
+.referencia a
+{
+color:white;
+text-decoration:none;
+font-size:30px;
+}
+
+.tarjeta
+{
+max-width: 300px;
+background-color: white;
+border-radius: 12px;
+padding: 20px;
+box-shadow:0 4px 15px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s, box-shadow 0.3s;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tarjeta img
+{
+ width:300px;
+}
+.tarjetas
+{
+display: flex;
+justify-content: center;
+align-items: center;
+gap:40px;
+}
+</style>
